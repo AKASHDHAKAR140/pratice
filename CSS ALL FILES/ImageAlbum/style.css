@@ -1,0 +1,27 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: row; */
+    padding:0px 6px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+  }
+  
+  @media screen and (max-width:800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+  
+  }
+  
+  @media screen and (max-width:600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+  
+  }
